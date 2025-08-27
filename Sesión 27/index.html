@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    
+    .container{
+        width: 1000px;
+    }
+</style>
+<body>
+    <h1>Funciones</h1>
+    <h2>Calculadora</h2>
+    <form action="">
+    <label for="">Numero1</label>
+    <input type="number" id="num1"> <br><br>
+    <label for="">Numero2</label>
+    <input type="number" id="num2"> <br><br>
+    <label for="">Operaciones</label> <br>
+    <input type="radio" name="operaciones" value="+"> Sumar <br>
+    <input type="radio" name="operaciones" value="-"> Restar <br>
+    <input type="radio" name="operaciones" value="*"> Multiplicar <br>
+    <input type="radio" name="operaciones" value="/"> Dividir <br><br>
+
+    <button type="button" onclick="calcular()">calcular</button>
+
+    </form>
+
+    <p id="resultado"></p>
+
+
+</body>
+
+<!-- JS -->
+
+<script src="script.js"></script>
+
+</html>
