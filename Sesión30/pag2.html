@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Eventos MouseOver y MouseOut</title>
+  <style>
+    #texto {
+      font-size: 30px;
+      color: black;
+      transition: color 0.3s ease; 
+    }
+  </style>
+</head>
+<body>
+  <p id="texto">707 JUSTICE DEFENDER</p>
+
+  <script>
+    let texto = document.getElementById("texto");
+
+   
+    texto.addEventListener("mouseover", function(e) {
+      texto.style.color = "red";
+    });
+
+    
+    texto.addEventListener("mouseout", function(e) {
+      texto.style.color = "black";
+    });
+  </script>
+</body>
+</html>
