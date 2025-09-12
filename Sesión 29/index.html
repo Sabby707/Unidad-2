@@ -1,40 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Objetos y JSON</title>
 </head>
-
 <body>
+  <form id="usuario">
     <h1>Objetos y Json</h1>
-    <h2>Objetos</h2>
+    <h2>Formulario</h2>
 
-    <h1>Formulario</h1>
-  <form action="" id="usuario">
-    <label for="">Nombre:</label>
+    <label>Nombre:</label>
     <input type="text" name="nombre"><br><br>
 
-    <label for="">Edad:</label>
+    <label>Edad:</label>
     <input type="number" name="edad"><br><br>
 
-    <label for="">Sexo:</label><br>
-    <input type="radio" name="sexo"  value="M">Masculino <br>
-    <input type="radio" name="sexo"  value="F">Femenino <br><br>
+    <label>Sexo:</label><br>
+    <input type="radio" name="sexo" value="M"> Masculino <br>
+    <input type="radio" name="sexo" value="F"> Femenino <br><br>
 
     <button type="button" onclick="enviar()">Enviar</button>
   </form>
 
+  <h2>Datos capturados</h2>
   <ul id="datos"></ul>
 
+  <h2>Usuarios del JSON</h2>
+  <ul id="usuarios"></ul>
 
-
-
-
-    <!-- JS -->
-
-    <script src="script.js"></script>
-    <script src="heroes.js"></script>
-
+  <!-- Scripts -->
+  <script src="heroes.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
